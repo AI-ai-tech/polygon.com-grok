@@ -1,0 +1,3 @@
+define_variable:"Grok_Start"=post.recent:inf:"Respond to this message for me to reply!"
+post.start:Grok_Start
+when_replied:post#plugin=github/AI-ai-tech/polygon.com-grok:{Grok%20Token}
